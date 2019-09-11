@@ -11,6 +11,7 @@
 
 /*
  * Pins in use:
+ * PA1 - test output (LED)
  * PA4 - ADC input
  * PA5 - ADC input
  */
@@ -18,7 +19,7 @@
 #include "stm32f0xx.h"
 #include "stm32f0_discovery.h"
 
-#include "ADCcode.c"
+#include "ADCcode.h"
 			
 
 int main(void)
